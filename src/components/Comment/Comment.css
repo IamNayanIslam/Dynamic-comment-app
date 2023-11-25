@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.comment-section {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-bottom: 1px solid #8a8a8a;
+  margin: 10px 0px;
+  padding: 10px;
+}
+
+.comment-section .user-dp {
+  width: 60px;
+  height: 60px;
+  /* background: powderblue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.comment-section .user-dp .dp {
+  height: 48px;
+  width: 48px;
+  background-color: #555;
+  border: 2px solid #fff;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 50%;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.comment-section .user-dp .dp:hover {
+  scale: calc(1.05);
+}
+
+.comment-section .comment {
+  text-align: left;
+  width: 350px;
+}
+
+.comment-section .comment .userName h4 {
+  color: #4189ff;
+  cursor: pointer;
+}
+
+.comment-section .comment .userName h4:hover {
+  text-decoration: underline;
+}
+
+.comment-section .comment .userComment p {
+  color: #8a8a8a;
+  max-width: 100%;
+}

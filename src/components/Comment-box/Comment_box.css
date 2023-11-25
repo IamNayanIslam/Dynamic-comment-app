@@ -1,0 +1,76 @@
+.wrap {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+}
+.comment-wrap {
+  width: 470px;
+  padding: 20px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  overflow-wrap: break-word;
+}
+
+.comment-wrap h1 {
+  text-align: center;
+  font-size: 25px;
+  color: dodgerblue;
+  margin: 5px 0;
+}
+
+.comment-wrap form {
+  padding-bottom: 10px;
+}
+
+.comment-wrap form label {
+  color: dodgerblue;
+  font-size: 18px;
+}
+
+.comment-wrap form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid dodgerblue;
+  outline: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+
+.comment-wrap form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid dodgerblue;
+  outline: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  resize: none;
+}
+
+.comment-wrap form button {
+  border: 1px solid dodgerblue;
+  border-radius: 4px;
+  outline: none;
+  background: dodgerblue;
+  color: #fff;
+  padding: 12px 25px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.comment-wrap form button:active {
+  background: #1871b7;
+}
+
+@media screen and (max-width: 480px) {
+  .comment-wrap {
+    width: 96%;
+    margin: 0 auto;
+  }
+}
