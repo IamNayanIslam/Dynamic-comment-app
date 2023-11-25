@@ -47,6 +47,7 @@ export default function Comment_box() {
             type="text"
             name="nameInput"
             placeholder="write your user name"
+            autoComplete="off"
             value={userName}
             onChange={(e) => setUserName(e.target.value)}
           />
